@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>UberEats</title>
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <script src="https://kit.fontawesome.com/d5c01cf236.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+      <header class="nav" id="header">
+        <div class="nav_wrapper">
+          <div class="nav_logo">
+            <a href="./index_stores.html" class="logo">
+              <img src="./images/logo-header.svg" alt="logo">
+            </a>
+          </div>
+          <div class="nav_form">
+            <form class="nav_time">
+              <input type="text" name="time" placeholder="ASAP">
+            </form>
+            <span>to</span>
+            <form class="nav_destination"> 
+              <input type="text" name="destination" placeholder="ul.Bolshaya Dmitrovka,22">
+            </form>
+          </div>
+          <div class="nav_registration">
+            <button class="sign_in_button" type="button">Sign In</button>
+            <button class="registration_button" type="button">Register</button>
+            <button class="basket_button" type="button"><img src="./images/basket.svg" alt="Basket"></button>
+          </div>
+        </div>
+    </header> 
+
+    <main>
+
+      <section class="search">
+        <div class="search_wrapper">
+          <form class="search_form">
+            <input class="search_field" type="search" placeholder="Search for restaurant or cuisine">
+          </form>
+        </div>
+      </section>
+
+      <section class="mobile">
+        <div class="mobile_wrapper">
+          <div class="when_to_deliver">
+            <p>When</p>
+            <div class="nav_form_mobile">
+              <form class="nav_time_mobile">
+                <input type="text" name="time" placeholder="ASAP">
+              </form>
+            </div>
+          </div>
+          <div class="where_to_deliver">
+            <p>To</p>
+            <div class="nav_form_mobile">
+              <form class="nav_destination_mobile">
+                <input type="text" name="destination" placeholder="ul.Bolshaya Dmitrovka,22">
+              </form>
+            </div>
+          </div>
+      </section>
+
+      <section class="restaurants">
+        <div class="restaurants_wrapper">
+          <h1>Moscow Restaurants</h1>
+        </div>
+        <div class="restaurants_cards">
+          <div class="card">
+            <img src="./images/card1.svg" alt="Macdonalds">
+            <h2>Макдоналдс - Газетный</h2>
+            <p class="rest_food_type">₽₽ · Бургеры</p>
+            <p class="rest_time">25 - 35 Min</p>
+          </div>
+          <div class="card">
+            <img src="./images/card2.svg" alt="Macdonalds">
+            <h2>DimSum & Co - ЦДМ</h2>
+            <p class="rest_food_type">₽ · Японская · Китайская · Азиатская</p>
+            <p class="rest_time">40 - 50 Min</p>
+          </div>
+          <div class="card">
+            <img src="./images/card3.svg" alt="Macdonalds">
+            <h2>ДвижОк - Манежная</h2>
+            <p class="rest_food_type">₽ · Американская · Европейская</p>
+            <p class="rest_time">35 - 45 Min</p>
+          </div>
+          <div class="card">
+            <img src="./images/card4.svg" alt="Macdonalds">
+            <h2>НЯ - NHA</h2>
+            <p class="rest_food_type">₽₽ · Вьетнамская</p>
+            <p class="rest_time">30 - 40 Min</p>
+          </div>
+          <div class="card">
+            <img src="./images/card5.svg" alt="Macdonalds">
+            <h2>Точка Дзы - Цветной</h2>
+            <p class="rest_food_type">₽₽ · Вьетнамская</p>
+            <p class="rest_time">40 - 50 Min</p>
+          </div>
+          <div class="card">
+            <img src="./images/card6.svg" alt="Macdonalds">
+            <h2>Cinnabon</h2>
+            <p class="rest_food_type">₽ · Выпечка · Десерты · Капкейки</p>
+            <p class="rest_time">25 - 35 Min</p>
+          </div>
+          <div class="card">
+            <img src="./images/card7.svg" alt="Macdonalds">
+            <h2>PIZZELOVE</h2>
+            <p class="rest_food_type">₽₽ · Пицца</p>
+            <p class="rest_time">15 - 25 Min</p>
+          </div>
+          <div class="card">
+            <img src="./images/card8.svg" alt="Macdonalds">
+            <h2>Zю кафе - Тверская</h2>
+            <p class="rest_food_type">₽₽ · Японская</p>
+            <p class="rest_time">25 - 35 Min</p>
+          </div>
+          <div class="card">
+            <img src="./images/card9.svg" alt="Macdonalds">
+            <h2>Bar BQ Cafe - Манежная</h2>
+            <p class="rest_food_type">₽₽₽ · Европейская</p>
+            <p class="rest_time">30 - 40 Min</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_wrapper">
+        <div class="footer_logo">
+          <img src="./images/logo-footer.svg" alt="FooterLogo">
+        </div>
+
+        <div class="footer_nav">
+          <div class="footer_info">
+            <form>
+              <select class="select_language">
+                <option>ENGLISH</option>
+                <option>RUSSIAN</option>
+                <option>FRENCH</option>
+                <option>GERMAN</option>
+              </select>
+            </form>
+            <div class="footer_tag">
+              <a href="./index_stores.html"><span>#</span>UberEats</a>
+            </div>
+            <div class="social_media">
+              <a href="./index_stores.html">
+                <img src="./images/facebook.svg" alt="Facebook">
+              </a>
+              <a href="./index_stores.html">
+                <img src="./images/twitter.svg" alt="Twitter">
+              </a>
+              <a href="./index_stores.html">
+                <picture>
+                  <source media="(max-width: 768px)" srcset="./images/instagram-mobile.svg">
+                  <source srcset="./images/instagram.svg"> 
+                  <img srcset="./images/instagram-mobile.svg" alt="Instagram" style="width: auto;">
+                </picture>
+              </a>
+            </div>
+          </div>
+            <div class="footer_all_about">
+              <a href="./index_stores.html">About UberEats</a>
+              <a href="./index_stores.html">Become a Delivery Partner</a>
+              <a href="./index_stores.html">Become a Restaurant Partner</a>
+            </div>
+            <div class="footer_help">
+              <a href="./index_stores.html">See all cities</a>
+              <a href="./index_stores.html">Pricing</a>
+              <a href="./index_stores.html">Help</a>
+              <a href="./index_stores.html">FaQs</a>
+            </div>
+        </div>
+
+        <div class="footer_stores">
+          <a href="./index_stores.html">
+            <img src="./images/app_store.svg" alt="App store">
+          </a>
+          <a href="./index_stores.html">
+            <img src="./images/google_store.svg" alt="Google play store">
+          </a>
+        </div>
+
+        <div class="footer_terms">
+          <a href="./index_stores.html">@ 2017 Uber Technologies</a>
+          <a href="./index_stores.html">Privacy</a>
+          <a href="./index_stores.html">Terms</a>
+        </div>
+      </div>
+
+      <div class="arrow_up">
+        <a href="#header">
+          <img src="./images/arrow.svg" alt="arrow up">
+        </a>
+      </div>
+    </footer>
+  </body>
+
+
+  <a href="./index_stores.html">
